@@ -11,6 +11,11 @@ class Node {
 class DoubleLinkedList {
 private:
     Node *START;
+
+public:
+    DoubleLinkedList(){
+        START = NULL;
+    }
 };
 
 int main (){
