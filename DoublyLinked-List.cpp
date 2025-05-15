@@ -16,6 +16,19 @@ public:
     DoubleLinkedList(){
         START = NULL;
     }
+
+    void addNode(){
+        int nim;
+        string nm;
+        cout << "\nEnter the roll number of the student: ";
+        cin >> nim;
+
+        // Step 1: Allocate memory for a new node
+        Node *newNode = new Node();
+        
+        // Step 2: Assign value to the data fields
+        newNode->noMhs = nim;
+    };
 };
 
 int main (){
